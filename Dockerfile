@@ -10,6 +10,9 @@ LABEL "com.github.actions.description"="Wraps the Apollo CLI"
 LABEL "com.github.actions.icon"="moon"
 LABEL "com.github.actions.color"="purple"
 
+# Install git dependency
+RUN apt update && apt install git -y
+
 # Install apollo globally
 RUN yarn global add apollo@2.16.3
 
