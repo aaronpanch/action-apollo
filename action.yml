@@ -1,0 +1,11 @@
+name: "GitHub Action for Apollo GraphQL"
+description: "Wraps the Apollo CLI"
+author: "Aaron Panchal"
+
+branding:
+  color: purple
+  icon: moon
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
