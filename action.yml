@@ -3,8 +3,8 @@ description: "Wraps the Apollo CLI"
 author: "Aaron Panchal"
 
 branding:
-  color: purple
-  icon: moon
+  color: "purple"
+  icon: "moon"
 
 runs:
   using: "docker"

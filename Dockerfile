@@ -4,7 +4,7 @@ FROM node:12-slim
 RUN apt-get update && apt-get install git -y
 
 # Install apollo globally
-RUN yarn global add apollo@2.16.3
+RUN yarn global add apollo@2.17.4
 
 ADD "entrypoint.sh" "/entrypoint.sh"
 ENTRYPOINT ["/entrypoint.sh"]
